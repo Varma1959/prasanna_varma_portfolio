@@ -632,3 +632,22 @@ footer .copyright{
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+
+/* styles.css */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    height: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the size of the icons as needed */
+    height: 30px;
+}
